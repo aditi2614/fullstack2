@@ -6,10 +6,22 @@
    <style>
       body {
          background-color: pink;
+         font-family: 'Times New Roman', Times, serif;
+
       }
 
       form {
          background-color: aquamarine;
+         padding: auto;
+      }
+
+      .button {
+         background-color: black;
+         color: white;
+         border-radius: 10%;
+         border-style: double;
+         width: 70px;
+         height: 30px;
       }
    </style>
 </head>
@@ -17,7 +29,7 @@
 <body>
 
    <form name="Registration Form">
-      <h1>Student Registration Form</h1>
+      <h1 style="font-style: italic;">Student Registration Form</h1>
 
       <!-- input tag -->
       First Name:<input type="text" name="fname"> <br><br>
@@ -64,12 +76,12 @@
       Month: <input type="month"> <br><br>
       <!--week-->
       week: <input type="week"> <br><br>
-      <!--sumbit button-->
-      <input type="Submit" name="sub" value="Click here"> <br><br>
-      <!--reset button-->
-      <input type="reset"> <br><br>
       <!--color-->
-      <input type="color">
+      <input type="color"> <br><br>
+      <!--sumbit button-->
+      <input type="Submit" name="sub" value="Submit" class="button">
+      <!--reset button-->
+      <input type="reset" class="button">
 
 
    </form>
