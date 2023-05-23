@@ -50,8 +50,6 @@
             cursor: pointer;
             width: auto;
             text-transform: uppercase;
-
-
         }
     </style>
 </head>
@@ -72,9 +70,9 @@
             <input type="text" name="middlename" placeholder="Middlename" size="15" />
             <label><b>Last name :</b></label>
             <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+
             <div>
                 <label for="college"><b>Select your course :</b></label>
-
                 <select id="college">
                     <optgroup label="UG">
                         <option>BCA</option>
@@ -97,13 +95,17 @@
             </div><br>
             <label for="DOB"><b>Enter your D.O.B :</b></label>
             <input type="date" id="DOB" min="1999-01-01" max="2025-01-01"> <br><br>
+
             <label for="picture"><b>Upload your photo :</b></label>
             <input type="file" id="picture"> <br><br>
-            <label for="url"><b>Enter your LinkedIn link :</b></label>
-            <input type="url"> <br><br>
+
+            <!-- <label for="url"><b>Enter your LinkedIn link :</b></label>
+            <input type="url"> <br><br> -->
+
             <label><b>Phone :</b></label>
             <input type="text" name="country code" placeholder="Country Code" value="+91" size="2" />
             <input type="text" name="phone" placeholder="phone no." size="10" required>
+
             <label><b>Current Address :</b></label>
             <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
 </textarea>
@@ -118,6 +120,7 @@
 
             <label for="psw-repeat"><b>Re-type Password :</b></label>
             <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+
             <center><button type="submit" class="registerbtn">Register</button></center>
             <center>
                 <div class="container signin">
