@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-size: 18px;
+        }
+
+        form {
+            background-color: azure;
+            padding: 50px;
+            margin: 10px 50px;
+            width: 500px;
+
+        }
+
+        /* input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    float: right;
+    
+    
+} */
+        .button {
+            background-color: rgba(0, 128, 0, 0);
+            height: 40px;
+            color: green;
+            text-transform: uppercase;
+            font-size: large;
+            border: 2px solid green;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <form>
+        <h1>Student Registration From</h1>
+        <label for="fullname">Full Name :</label>
+        <input type="text" placeholder="Enter your name" id="fullname" value="Yogesh">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass">
+        <br><br>
+        <label for="mail">EMail</label>
+        <input type="email" id="mail">
+        <br><br>
+        <label for="color">Enter your color value</label>
+        <input id="color" type="color">
+        <br>
+        <br>
+        <label for="DOB">Enter your D.O.B.</label>
+        <input id="DOB" type="date" min="1991-01-01">
+        <br><br>
+        <label for="datetime">Enter your meeting Date & time</label>
+        <input type="datetime-local" id="datetime">
+        <br><br>
+        <label for="resume">Please upload your resume</label>
+        <input type="file" id="resume" multiple>
+        <br><br>
+
+        <input type="hidden" value="3168" id="studentid">
+        <br><br>
+        <label for="hithub">Enter your Github URL</label>
+        <input type="url" id="github">
+        <br><br>
+        <p>Please Select your Gender</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+
+        <!-- <p>Pleae select your Fav Car</p>
+<input type="radio" id="Mahindra" name="car"><label for="Mahindra">Mahindra</label>
+<input type="radio" id="Kia" name="car"><label for="kia">Kia</label>
+<input type="radio" id="Maruti" name="car"><label for="Maruti">Maruti</label>
+<input type="radio" id="Tata" name="car"><label for="tata">Tata</label> -->
+
+        <br><br>
+        <p>Pleae select your Fav Cars</p>
+
+        <input type="checkbox" id="Mahindra"><label for="Mahindra">Mahindra</label>
+        <input type="checkbox" id="Kia"><label for="Kia">Kia</label>
+        <input type="checkbox" id="Maruti"><label for="Maruti">Maruti</label>
+        <input type="checkbox" id="Tata"><label for="Tata">Tata</label>
+
+        <br><br>
+        <label for="schoolclass">Please select your class</label>
+        <select id="schoolclass">
+            <optgroup label="Class 1">
+                <option>Section A</option>
+                <option>Section B</option>
+            </optgroup>
+            <option value="2">Class 2</option>
+            <option>Class 3</option>
+            <option disabled>Class 4</option>
+            <option>Class 5</option>
+            <option>Class 6</option>
+            <option>Class 7</option>
+
+
+
+        </select>
+
+
+        <br><br>
+
+
+        <label for="query">Please write your Query</label>
+        <textarea id="query" rows="10" cols="50"></textarea>
+
+
+        <br><br>
+
+        <input type="reset" class="button" value="Reset Me">
+
+
+
+        <!-- <input type="image" src="/images/586383c67d90850fc3ce2914.png" width="60px"> -->
+
+        <input type="submit" value="Login" class="button">
+    </form>
+</body>
+
+</html>
