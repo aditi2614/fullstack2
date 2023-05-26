@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+        h1 {
+            color: aliceblue;
+            text-shadow: 1px 1px 2px #0da30d, 1px 1px 2px red;
+        }
+
+        .item {
+
+            background-color: coral;
+            /* width: 200px; */
+            height: 200px;
+            border: 1px solid black;
+
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            gap: 10px 5px;
+            /* justify-content: flex-end; */
+        }
+
+
+        /* div:hover{
+  transform: rotateZ(50deg);
+} */
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- <div>
+<img src="/images/photo1.jpg" style="width: 100%;">
+</div> -->
+
+
+    <div class="container">
+        <div class="item" style="grid-column: 1/5;">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+    </div>
+
+
+
+
+</body>
+
+</html>
