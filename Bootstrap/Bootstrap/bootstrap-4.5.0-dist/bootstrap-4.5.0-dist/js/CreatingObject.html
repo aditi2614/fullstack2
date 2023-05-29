@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ways of creating objects</title>
+</head>
+<body>
+    <script>
+        //object literal
+        var fees={};
+        fees['rahul']=200;
+
+        //object literal declare and initial
+        var fees={rahul: 200};
+
+        //object constructor
+        var fees= new Object();
+
+        //factory function
+        function mobile(){
+            return{
+                model: 'Galaxy'
+            }
+        }
+        var samsung = mobile();
+        var LG = mobile();
+
+        //constructor function
+        var mobile = function(){
+            this.model='Galaxy';
+        }
+        var samsung = new mobile();
+        var LG = new mobile();
+
+    </script>
+</body>
+</html>
