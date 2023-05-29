@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>HTML FORM</title>
+    <style>
+        body {
+            background-color: cyan;
+        }
+
+        form {
+            background-color: azure;
+            padding: 50px;
+            margin: 10px 50px;
+            width: 500px;
+        }
+
+        /* input {
+            height: 20px;
+            width: 200px;
+            border-radius: 2px;
+            float: right;
+        } */
+
+        .button {
+            background-color: lightblue;
+            height: 25px;
+            color: white;
+            text-transform: uppercase;
+            font-size: large;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <br><br>
+
+        <label for="Pass">Password</label>
+        <input type="password" placeholder="Enter your password" id="Pass">
+        <br><br>
+
+        <label for="mail">EMail</label>
+        <input type="email" placeholder="Enter your email" id="mail">
+        <br><br>
+
+        <label for="color">Enter your favourite color</label>
+        <input id="color" type="color">
+        <br><br>
+
+        <label for="date">Enter your D.O.B.</label>
+        <input type="date" placeholder="enter your D.O.B." id="date" max="2023-05-30" min="2002-01-23">
+        <br><br>
+
+        <label for="date and time">Enter your meeting date and time</label>
+        <input type="datetime-local" id="date and time">
+        <br><br>
+
+        <label for="resume">upload your resume</label>
+        <input type="file" id="resume" multiple>
+        <br><br>
+
+        <p>Please enter your gender</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <p>Enter your Qualification</p>
+        <input type="checkbox" id="UG" Button="Qualification">
+        <label for="UG">UG</label>
+
+        <input type="checkbox" id="PG" Button="Qualification">
+        <label for="PG">PG</label>
+        <br><br>
+
+        <label for="github">Enter your Github URL</label>
+        <input type="url" placeholder="Enter your Github url" id="github">
+        <br><br>
+
+        <label for="schoolclass">Please select your class</label>
+        <select id="schoolclass">
+            <optgroup label="class1">
+                <option>Section A </option>
+                <option>Section B</option>
+            </optgroup>
+            <option value="2">class 2</option>
+            <option>class 3</option>
+            <option>class 4</option>
+            <option>class 5</option>
+            <option>class 6</option>
+            <option>class 7</option>
+            <option>class 8</option>
+        </select>
+        <br><br>
+
+
+
+
+        <!-- <input type="image" src="download.jpeg" width="50px"> -->
+        <!-- 
+        <input type="month">
+        <input type="number" max="2023" min="2002">
+        <input type="range" max="10" min="0"> -->
+        <!-- <br><br> -->
+
+        <input type="reset" class="button">
+        <br><br>
+
+        <input type="submit" value="submit" class="button">
+
+    </form>
+
+</body>
+
+</html>
