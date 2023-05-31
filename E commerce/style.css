@@ -175,7 +175,7 @@ h4 {
 
 .logo img {
     border: 1px solid black;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 /*---------offer----------*/
@@ -288,8 +288,10 @@ small {
 }
 
 .footer-col-2 img {
-    width: 180px;
+    width: 120px;
+    height: 100px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .footer-col-3,
