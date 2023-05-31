@@ -35,6 +35,11 @@ a {
     color: #555;
 }
 
+a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
 p {
     color: #555;
 }
@@ -112,6 +117,11 @@ p {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.col-3:hover {
+    opacity: 0.8;
+    border: 2px solid black;
 }
 
 .col-4 {
