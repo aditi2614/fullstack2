@@ -1,3 +1,21 @@
-let aditi = 2614;
+let a = 10, b = 10;
 
-console.log(aditi);
+// Airthmetic operation
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+// Assignment operation
+
+console.log('a==b', a == b, a === b);
+console.log('a!=b', a != b, a !== b);
+console.log('a>b', a > b);
+console.log('a<b', a < b);
+console.log('a>=b', a >= b);
+
+
+// Logical operation
+
+console.log('&&', true && true);
