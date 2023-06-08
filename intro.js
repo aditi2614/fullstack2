@@ -25,3 +25,10 @@ console.log('!', !false);
 if (a == 10 || b > 30) {
     console.log("values is valid");
 }
+
+
+//short hand
+
+let x = 10;
+x *= 5; //(x = x * 5;)
+console.log("x", x);
