@@ -48,3 +48,20 @@ while (k <= n) {
     console.log(k);
     k += 1;
 }
+
+// 5. Write a for loop that prints the multiplication table of a given number.
+
+// program to generate a multiplication table
+
+// take input from the user
+const num = parseInt(prompt('Enter an integer: '));
+
+//creating a multiplication table
+for (let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * num;
+
+    // display the result
+    console.log(`${num} * ${i} = ${result}`);
+}
