@@ -102,3 +102,39 @@ for (let i = 1; i <= no; i++) {
     n1 = n2;
     n2 = nextTerm;
 }
+
+// 8. Write a while loop that checks if a given number is prime.
+
+// program to check if a number is prime or not
+
+// take input from the user
+const numberr = parseInt(prompt("Enter a positive number: "));
+let isPrime = true;
+
+// check if number is equal to 1
+if (numberr === 1) {
+    console.log("1 is neither prime nor composite number.");
+}
+
+// check if number is greater than 1
+else if (numberr > 1) {
+
+    // looping through 2 to number-1
+    for (let i = 2; i < numberr; i++) {
+        if (numberr % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        console.log(`${numberr} is a prime number`);
+    } else {
+        console.log(`${numberr} is a not prime number`);
+    }
+}
+
+// check if number is less than 1
+else {
+    console.log("The number is not a prime number.");
+}
