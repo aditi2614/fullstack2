@@ -86,4 +86,19 @@ for (f = 1; f <= m; f++) {
 }
 console.log(fact)
 
-// 7. 
+// 7. Write a for loop that prints the Fibonacci series up to a given number of terms.
+
+// program to generate fibonacci series up to n terms
+
+// take input from the user
+const no = parseInt(prompt('Enter the number of terms: '));
+let n1 = 0, n2 = 1, nextTerm;
+
+console.log('Fibonacci Series:');
+
+for (let i = 1; i <= no; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
