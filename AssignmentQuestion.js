@@ -34,3 +34,17 @@ for (let i = 1; i <= number; i++) {
 }
 
 console.log('The sum of natural numbers:', sum);
+
+
+// 4. Write a while loop that calculates the product of numbers from 1 to 10.
+
+
+// program to display numbers from 1 to 5
+// initialize the variable
+let k = 1, n = 5;
+
+// while loop from i = 1 to 5
+while (k <= n) {
+    console.log(k);
+    k += 1;
+}
