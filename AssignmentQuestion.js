@@ -65,3 +65,25 @@ for (let i = 1; i <= 10; i++) {
     // display the result
     console.log(`${num} * ${i} = ${result}`);
 }
+
+// 6. Write a while loop that finds the factorial of a given number.
+
+//Find factorial of a number
+
+//5! = 5*4*3*2*1 = 120
+//6! = 6*5*4*3*2*1 = 720
+
+let m = 6, f = 1, fact = 1
+while (f <= n) {
+    fact = fact * f
+    f++
+}
+console.log(fact)
+
+//for loop
+for (f = 1; f <= m; f++) {
+    fact = fact * f
+}
+console.log(fact)
+
+// 7. 
