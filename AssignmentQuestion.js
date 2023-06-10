@@ -138,3 +138,4 @@ else if (numberr > 1) {
 else {
     console.log("The number is not a prime number.");
 }
+
